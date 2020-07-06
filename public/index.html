@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <div>{{getNewName}}</div>
+        name:<input type="text"
+        v-model="user.name"
+        >
+        age:<input type="text"
+        v-model="user.age"
+        >
+        user.info.sex:<input type="text"
+        v-model="user.info.sex"
+        >
+        user:{{user.info.sex}}
+        <div>{{user.name}}-{{user.age}}</div>
+        <div>333</div>
+        {{user.info.sex}}--{{user.name}}
+
+
+
+        
+    </div>
+</body>
+</html>
